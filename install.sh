@@ -27,7 +27,7 @@ echo "options:
 echo "options:
   dashboard:
     services:
-      - unit: gromox-antispam.service
+      - unit: rspamd.service
       - unit: gromox-delivery.service
       - unit: gromox-event.service
       - unit: gromox-http.service
